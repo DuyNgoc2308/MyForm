@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	<style type="text/css">
+		input{
+			text-indent: 15px;
+			height: 30px;
+			border: none;
+			background: transparent;
+			font-style: italic;
+			border-bottom: 1px solid lightgrey;
+			color: white;
+			outline: none;
+		}
+		.login-form{
+			/*width: auto;
+			height: auto;
+			padding: 10px 40px; */                                        
+			background: transparent;
+			display: grid;
+			align-items: center;
+			justify-content: center;
+			grid-template-columns: auto;
+			color: white;
+			margin: 100px 100px;
+		}
+		a{
+			color: lightblue;
+			font-size: 14px;
+		}
+		label{
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+		button{
+			margin: 15px 15px;
+			height: 30px;
+			border:none;
+			border-radius: 10px;
+			background: lightblue;
+			font-weight: bold;
+			outline: none;
+		}
+		button:hover{
+			background: yellow;
+		}
+		body{
+			background-image: url("backgr.jpg");
+			display: flex;
+			font-family: sans-serif;
+			justify-content: center;
+			align-items: center;
+
+		}
+		span{
+			font-size: 12px;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<form class="login-form">
+		<h1>Signup</h1>
+		<label><i class="fas fa-user"></i>&nbspUsername</label>
+		<input placeholder="Enter your username">
+		<label><i class="fas fa-key"></i>&nbspCreate password</label>
+		<input placeholder="Enter your password" type="password">
+		<label><i class="fas fa-redo"></i>&nbspConfirm password</label>
+		<input placeholder="Enter your password again" type="password">
+		<span><input type="checkbox">Accept terms and service of use</span>
+		<button type="submit"><i class="fas fa-check"></i>&nbspDONE</button>
+		<a href="#">Have you got any account?</a>
+		<a href="file:///C:/xampp/xam/htdocs/MyForm/loginform.html?">Or Login?</a>
+	</form>
+
+</body>
+</html>

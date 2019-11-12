@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	<style type="text/css">
+		input{
+			text-indent: 15px;
+			height: 40px;
+			width: 200px;
+			border: none;
+			background: transparent;
+			font-style: italic;
+			border-bottom: 1px solid lightgrey;
+			color: white;
+			outline: none;
+		}
+		.login-form{
+			/*width: auto;
+			height: auto;
+			padding: 10px 30px; */                                       
+			background: transparent;
+			display: grid;
+			align-items: center;
+			justify-content: center;
+			grid-template-columns: auto;
+			color: white;
+			margin: 100px 100px;
+		}
+		a{
+			color: lightblue;
+			font-size: 14px;
+		}
+		label{
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+		button{
+			margin: 15px 15px;
+			height: 30px;
+			width: auto;
+			border:none;
+			border-radius: 10px;
+			background: lightblue;
+			font-weight: bold;
+			outline: none;
+		}
+		button:hover{
+			background: yellow;
+		}
+		body{
+			background-image: url("backgr.jpg");
+			display: flex;
+			font-family: sans-serif;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+	<form class="login-form" action="login.php" method="post">
+		<h1>Login</h1>
+		<label><i class="fas fa-user"></i>&nbspUsername</label>
+		<input placeholder="Enter your username" name="usern">
+		<label><i class="fas fa-key"></i>&nbspPassword</label>
+		<input placeholder="Enter your password" type="password" name="passw">
+		<button type="submit">LOGIN&nbsp<i class="fas fa-sign-in-alt"></i></button>
+		<div>
+			<a href="#">Forgot password?</a>
+			<a href="file:///C:/xampp/xam/htdocs/MyForm/signupform.html?">Or Signup?</a>
+		</div>
+	</form>
+</body>
+</html>
